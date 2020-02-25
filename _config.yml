@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: nulltrain
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -33,6 +33,7 @@ github_username:  jekyll
 remote_theme: noevidenz/mediator
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-remote-theme
 
 # Exclude from processing.
@@ -54,3 +55,24 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+###
+# Mediator specific config
+###
+
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+nav_pages:
+  - title: About
+    url: /about/
+
+name:
+author:
+author_image: "//placehold.it/100"
+
+paginate:    5
